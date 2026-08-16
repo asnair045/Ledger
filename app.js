@@ -1,5 +1,4 @@
-// Ledger — a minimal, dependency-free task list.
-// State lives in `tasks` and persists to localStorage.
+
 
 const STORAGE_KEY = 'ledger.tasks';
 
