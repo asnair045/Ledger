@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger — a running list of what needs doing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="sheet">
+    <header>
+      <h1>Ledger</h1>
+      <p class="tagline">A running account of what needs doing.</p>
+    </header>
+
+    <form id="task-form" class="entry-row">
+      <input type="text" id="task-input" placeholder="What needs doing?" aria-label="New item" autocomplete="off" required>
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="tabs" role="group" aria-label="Filter items">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="open">Open</button>
+      <button class="tab" data-filter="done">Done</button>
+    </div>
+
+    <ul id="task-list" class="ledger-list"></ul>
+
+    <footer>
+      <span id="task-count">0 open</span>
+      <button id="clear-completed">Clear done</button>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
