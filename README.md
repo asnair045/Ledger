@@ -1,6 +1,6 @@
 # Ledger
 
-A minimal, dependency-free task list — a starter template, not a toy. Pure HTML/CSS/JS: no build step, no backend, no `npm install`. Open `index.html` and it runs. Items persist in the browser via `localStorage`.
+A minimal, dependency-free task list
 
 ## Features
 - Add, check off, and delete items
