@@ -1,6 +1,4 @@
-/* Design tokens — "ledger paper" concept:
-   pale green-bar paper, ink-green accent, monospace for
-   counts/line numbers, sans for content. */
+
 :root {
   --paper: #EEF2EA;
   --stripe: #DEE9D8;
